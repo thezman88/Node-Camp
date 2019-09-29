@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/thezman88/Node-Camp/issues"
   },
-  "homepage": "https://github.com/thezman88/Node-Camp#readme"
+  "homepage": "https://github.com/thezman88/Node-Camp#readme",
+  "dependencies": {
+    "chalk": "^2.4.2"
+  }
 }
