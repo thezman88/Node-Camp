@@ -1,7 +1,7 @@
 
 const chalk = require('chalk');
 const yargs = require("yargs");
-const getNotes = require ('/Users/zacharycohen/Desktop/Node-Camp/notes.js');
+const notes = require ('/Users/zacharycohen/Desktop/Node-Camp/notes.js');
 
 const log = console.log;
 
@@ -13,8 +13,8 @@ yargs.command({
   builder:{
     title: {
       describe: 'Note title',
-      // demandOption: true,
-      // type:'string'
+      demandOption: true,
+      type:'string'
     },
     body:{
       describe: "note body",
@@ -23,8 +23,7 @@ yargs.command({
     }
   },
   handler: function(argv){
-    log('Title: ' + argv.title)
-    log("body: " + argv.body)
+  notes.addNote(argv.title, argv.body)
   }
 })
 
