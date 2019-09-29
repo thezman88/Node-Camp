@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/thezman88/Node-Camp#readme",
   "dependencies": {
-    "chalk": "^2.4.2"
+    "chalk": "^2.4.2",
+    "yargs": "^14.0.0"
   }
 }
