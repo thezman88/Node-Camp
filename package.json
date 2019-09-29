@@ -1,0 +1,19 @@
+{
+  "name": "node-camp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thezman88/Node-Camp.git"
+  },
+  "author": "Zachary Cohen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thezman88/Node-Camp/issues"
+  },
+  "homepage": "https://github.com/thezman88/Node-Camp#readme"
+}
